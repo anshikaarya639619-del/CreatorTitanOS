@@ -21,6 +21,7 @@ python service.py
 - `openai_compatible.py`: generic adapter for endpoints that explicitly document OpenAI-compatible chat completions.
 - `sqlite_store.py`: durable single-node task state across process restarts.
 - `service.py`: small bearer-token-protected HTTP API and health endpoint.
+- `queue_worker.py`: polling worker that retries persisted queued tasks when eligible providers recover.
 - `Dockerfile` + `compose.yaml`: container deployment scaffold with persistent SQLite volume and restart/healthcheck policy.
 - `.github/workflows/infinite-ai-power-os-tests.yml`: automated unit-test and Python compile workflow.
 - `registry-capacity.json`: 500 placeholder slots. These are not real connected providers.
@@ -35,4 +36,4 @@ python service.py
 - Never use this router to bypass quotas, rate limits, account restrictions or provider terms.
 
 ## Important deployment limits
-The SQLite store is suitable for a single-node starter deployment; it is not a distributed queue. Use a managed database/queue and encrypted secret manager for multiple replicas. Docker Compose is a deployment template, not a deployed cloud service. A real 24/7 uptime claim requires selecting a host, configuring secrets and storage, deploying, monitoring and testing recovery. No provider is live until it has been authenticated and health-checked.
+The SQLite store is suitable for a single-node starter deployment; it is not a distributed queue. Use a managed database/queue and encrypted secret manager for multiple replicas. Docker Compose runs the API and queue worker as separate restartable containers using a shared SQLite volume. It is a deployment template, not a deployed cloud service. A real 24/7 uptime claim requires selecting a host, configuring secrets and storage, deploying, monitoring and testing recovery. No provider is live until it has been authenticated and health-checked.
