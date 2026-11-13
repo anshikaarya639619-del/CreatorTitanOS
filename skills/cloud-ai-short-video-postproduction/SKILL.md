@@ -418,3 +418,226 @@ Before starting any external AI generation or cloud render:
 At delivery, include a concise line:
 - **Cost:** ₹0 spent / free-tier usage (limits apply) / paid action requested and approved.
 Never claim "all-time free" for a third-party service. The system's commitment is **free-first, no surprise charges, replaceable tools, and transparent limits**.
+
+
+## 21. 100+ AI and creator-tool discovery catalog
+
+This catalog is a discovery pool, not a claim that every product is free today. It intentionally separates local/open-source projects from hosted services with changing free quotas. Tool names are candidates; the execution agent must verify official availability, current free allowance, export rights, watermarks, commercial-use terms, and Android compatibility before depending on any hosted service.
+
+### Status labels
+- **[LOCAL/OSS]**: Open-source or downloadable software/model. No per-generation vendor token bill when run locally, but hardware, storage, electricity, setup, and model-license conditions still apply. "Free to run" does not mean the model can run well on a low-RAM Android phone.
+- **[HOSTED-FREE?]**: Hosted service that may provide a free plan, daily credits, limited tokens, or trial allowance. The exact quota can change; verify the official plan page at time of use.
+- **[FREEMIUM?]**: Some useful functions may be free while advanced features, high resolution, commercial rights, or exports may require payment.
+- **[UTILITY]**: Free creator software or utility; not necessarily an AI model itself.
+
+### 21.1 Chat, reasoning, research, and writing
+1. ChatGPT — [HOSTED-FREE?]
+2. Google Gemini — [HOSTED-FREE?]
+3. Claude — [HOSTED-FREE?]
+4. Microsoft Copilot — [HOSTED-FREE?]
+5. DeepSeek — [HOSTED-FREE?]
+6. Qwen Chat — [HOSTED-FREE?]
+7. Mistral Le Chat — [HOSTED-FREE?]
+8. Meta AI — [HOSTED-FREE?]
+9. Perplexity — [HOSTED-FREE?]
+10. Poe — [HOSTED-FREE?]
+11. You.com — [HOSTED-FREE?]
+12. Duck.ai — [HOSTED-FREE?]
+13. HuggingChat — [HOSTED-FREE?]
+14. GroqCloud — [HOSTED-FREE?]
+15. Cerebras Inference — [HOSTED-FREE?]
+16. OpenRouter — [HOSTED-FREE?; model-specific]
+17. Hugging Face Spaces — [HOSTED-FREE?; space-specific]
+18. GitHub Models — [HOSTED-FREE?; quota/eligibility-specific]
+19. Ollama — [LOCAL/OSS]
+20. LM Studio — [LOCAL/OSS; desktop hardware]
+21. Jan — [LOCAL/OSS]
+22. GPT4All — [LOCAL/OSS]
+23. llama.cpp — [LOCAL/OSS]
+24. Open WebUI — [LOCAL/OSS]
+25. AnythingLLM — [LOCAL/OSS; integrations may vary]
+
+### 21.2 Image generation, image editing, and design
+26. Stable Diffusion 1.5 — [LOCAL/OSS; check model license]
+27. Stable Diffusion XL — [LOCAL/OSS; check model license]
+28. FLUX.1 schnell — [LOCAL/OSS; check exact license and use case]
+29. ComfyUI — [LOCAL/OSS]
+30. AUTOMATIC1111 Stable Diffusion WebUI — [LOCAL/OSS]
+31. Forge WebUI — [LOCAL/OSS]
+32. InvokeAI — [LOCAL/OSS]
+33. Fooocus — [LOCAL/OSS]
+34. Krita AI Diffusion — [LOCAL/OSS]
+35. SD.Next — [LOCAL/OSS]
+36. SwarmUI — [LOCAL/OSS]
+37. Hugging Face Diffusers — [LOCAL/OSS]
+38. Ideogram — [HOSTED-FREE?]
+39. Leonardo AI — [HOSTED-FREE?]
+40. Adobe Firefly — [HOSTED-FREE?; generative credits]
+41. Canva Magic Studio — [FREEMIUM?]
+42. Microsoft Designer / Image Creator — [HOSTED-FREE?]
+43. Google ImageFX — [HOSTED-FREE?; region/account availability]
+44. Playground AI — [HOSTED-FREE?]
+45. Krea — [HOSTED-FREE?]
+46. Recraft — [HOSTED-FREE?]
+47. Tensor.Art — [HOSTED-FREE?; credit rules]
+48. SeaArt — [HOSTED-FREE?; credit rules]
+49. Civitai generator — [HOSTED-FREE?; credit/rights rules]
+50. Mage — [HOSTED-FREE?]
+51. PixAI — [HOSTED-FREE?]
+52. Dezgo — [HOSTED-FREE?]
+53. Craiyon — [FREEMIUM?]
+54. NightCafe — [HOSTED-FREE?; credit rules]
+55. Upscayl — [LOCAL/OSS; image upscaling utility]
+56. Real-ESRGAN — [LOCAL/OSS; image restoration model]
+
+### 21.3 AI video generation and animation
+57. Wan video models — [LOCAL/OSS or hosted deployments; hardware/model license varies]
+58. HunyuanVideo — [LOCAL/OSS; hardware intensive]
+59. LTX-Video — [LOCAL/OSS; hardware intensive]
+60. CogVideoX — [LOCAL/OSS; hardware intensive]
+61. Mochi — [LOCAL/OSS; hardware intensive]
+62. Open-Sora — [LOCAL/OSS; hardware intensive]
+63. VideoCrafter — [LOCAL/OSS; hardware intensive]
+64. AnimateDiff — [LOCAL/OSS; model/license check]
+65. Kling AI — [HOSTED-FREE?; credits/availability change]
+66. Hailuo AI — [HOSTED-FREE?; credits/availability change]
+67. PixVerse — [HOSTED-FREE?; daily/plan credits may change]
+68. Vidu — [HOSTED-FREE?; daily/plan credits may change]
+69. Runway — [HOSTED-FREE?; initial/free credits may be limited]
+70. Pika — [HOSTED-FREE?; verify current free allowance]
+71. Luma Dream Machine — [HOSTED-FREE?; verify current plan]
+72. Google Flow — [HOSTED-FREE?; model/features vary by plan/region]
+73. Dreamina — [HOSTED-FREE?; credit rules]
+74. Haiper — [HOSTED-FREE?; verify current status]
+75. Genmo — [HOSTED-FREE?; verify current status]
+76. Pollo AI — [HOSTED-FREE?; credit rules]
+77. Viggle — [HOSTED-FREE?; credit rules]
+78. Hedra — [HOSTED-FREE?; credit rules]
+79. D-ID — [HOSTED-FREE?; trial/credit rules]
+80. HeyGen — [HOSTED-FREE?; minutes/watermark rules]
+81. Vidnoz AI — [HOSTED-FREE?; daily credits/minutes may change]
+82. Akool — [HOSTED-FREE?; credits/watermark rules]
+
+### 21.4 Speech-to-text, captions, and transcription
+83. Whisper — [LOCAL/OSS]
+84. faster-whisper — [LOCAL/OSS]
+85. whisper.cpp — [LOCAL/OSS]
+86. WhisperX — [LOCAL/OSS]
+87. Vosk — [LOCAL/OSS]
+88. Subtitle Edit — [UTILITY; AI integrations vary]
+89. Buzz — [LOCAL/OSS; Whisper desktop interface]
+90. MacWhisper — [FREEMIUM?; platform-specific]
+91. TurboScribe — [HOSTED-FREE?; minutes/limits]
+92. Notta — [HOSTED-FREE?; minutes/limits]
+93. Otter.ai — [HOSTED-FREE?; minutes/limits]
+94. CapCut auto captions — [FREEMIUM?; region/features vary]
+95. YouTube automatic captions — [UTILITY; platform processing and language support vary]
+
+### 21.5 Text-to-speech, voice, and audio enhancement
+96. Piper TTS — [LOCAL/OSS]
+97. Kokoro TTS — [LOCAL/OSS; verify model license]
+98. Coqui TTS — [LOCAL/OSS; project/model status varies]
+99. XTTS — [LOCAL/OSS; verify model license]
+100. OpenVoice — [LOCAL/OSS; verify model license]
+101. ChatTTS — [LOCAL/OSS; verify model license]
+102. MeloTTS — [LOCAL/OSS]
+103. Parler-TTS — [LOCAL/OSS]
+104. F5-TTS — [LOCAL/OSS; verify model license]
+105. Fish Speech — [LOCAL/OSS; verify model license]
+106. CosyVoice — [LOCAL/OSS; verify model license]
+107. Chatterbox — [LOCAL/OSS; verify model license]
+108. ElevenLabs — [HOSTED-FREE?; character quota and commercial terms]
+109. Google Cloud Text-to-Speech — [HOSTED-FREE?; billing/quota terms]
+110. Azure AI Speech — [HOSTED-FREE?; subscription/quota terms]
+111. TTSMaker — [HOSTED-FREE?; usage and license terms]
+112. Bark — [LOCAL/OSS; hardware/model license]
+113. RVC — [LOCAL/OSS; consent and voice-rights required]
+114. Demucs — [LOCAL/OSS; source separation]
+115. Ultimate Vocal Remover — [LOCAL/OSS; model/license check]
+116. Audacity — [UTILITY; plugins and local processing]
+117. Adobe Podcast Enhance — [HOSTED-FREE?; limits may change]
+118. Auphonic — [HOSTED-FREE?; monthly processing allowance may change]
+
+### 21.6 Music and sound effects
+119. MusicGen / AudioCraft — [LOCAL/OSS; model and usage license check]
+120. Stable Audio Open — [LOCAL/OSS; license/use restrictions check]
+121. ACE-Step — [LOCAL/OSS; model license check]
+122. Suno — [HOSTED-FREE?; free-plan rights may restrict commercial use]
+123. Udio — [HOSTED-FREE?; verify current availability and rights]
+124. Mubert — [FREEMIUM?; license terms]
+125. Pixabay Music — [UTILITY; verify each asset license]
+126. YouTube Audio Library — [UTILITY; track-specific attribution/usage rules]
+127. Freesound — [UTILITY; check each sound's Creative Commons license]
+128. Mixkit — [UTILITY; check current license per asset]
+
+### 21.7 Editing, compositing, and production utilities
+129. CapCut — [FREEMIUM?; regional features and export terms]
+130. VN Video Editor — [UTILITY; AI functions/features vary]
+131. Shotcut — [UTILITY; open-source editor]
+132. Kdenlive — [UTILITY; open-source editor]
+133. Blender — [UTILITY; open-source 3D/compositing]
+134. Natron — [UTILITY; open-source compositing]
+135. LosslessCut — [UTILITY; open-source lossless trimming]
+136. FFmpeg — [UTILITY; open-source media processing]
+137. RIFE — [LOCAL/OSS; frame interpolation]
+138. Flowframes — [FREEMIUM?/UTILITY; platform and model requirements]
+139. OBS Studio — [UTILITY; open-source recording]
+140. GIMP — [UTILITY; open-source image editing]
+141. Inkscape — [UTILITY; open-source vector graphics]
+142. Photopea — [FREEMIUM?; browser editor]
+143. Canva — [FREEMIUM?; templates and AI features vary]
+144. Adobe Express — [FREEMIUM?; AI credits/features vary]
+
+### 21.8 AI coding, automation, and workflow helpers
+145. Google AI Studio — [HOSTED-FREE?; API/model quotas and terms]
+146. Hugging Face — [HOSTED-FREE?; inference/Spaces limits]
+147. n8n Community Edition — [LOCAL/OSS; self-hosting required]
+148. Activepieces Community Edition — [LOCAL/OSS; self-hosting required]
+149. Node-RED — [LOCAL/OSS; integrations vary]
+150. Make — [HOSTED-FREE?; operation quota]
+151. Zapier — [HOSTED-FREE?; task quota]
+152. GitHub Actions — [HOSTED-FREE?; included minutes and runner limits]
+153. Google Apps Script — [HOSTED-FREE?; quotas apply]
+154. Aider — [LOCAL/OSS; model/API may cost]
+155. Continue — [LOCAL/OSS; model/API may cost]
+156. OpenHands — [LOCAL/OSS; model/API and compute may cost]
+
+### 21.9 How to choose and rotate free quotas
+
+For each project, select a small reliable stack rather than trying to use all 100+ tools:
+- One primary assistant/research tool and one fallback.
+- One visual generation or visual sourcing route.
+- One video generation route only if needed.
+- One transcription/caption route.
+- One voice/audio cleanup route.
+- One editing app and one export/QC utility.
+
+For hosted services with free daily/monthly tokens:
+1. Read the official pricing/FAQ page on the day of use.
+2. Record the stated quota, reset period, watermark, output resolution, queue priority, and commercial-use rules.
+3. Track actual credits consumed per generation.
+4. Stop when the free quota is exhausted; switch to another legitimately free option or continue manually.
+5. Never create multiple accounts, rotate identities, or bypass quotas to evade limits.
+6. Do not promise daily credits unless the provider explicitly documents them.
+
+For local/open-source tools:
+- Confirm Android compatibility before recommending installation.
+- On low-RAM phones, prefer hosted free tiers or lightweight browser tools; large local image/video models are generally not practical.
+- Treat local inference as quota-free only after the model is downloaded and the device can run it; hardware limits still apply.
+- For cloud notebooks or hosted demos, verify session limits, idle shutdown, GPU availability, and usage policy.
+
+### 21.10 Catalog maintenance protocol
+
+At each project start, refresh only the tools relevant to the requested deliverable. For a full catalog audit, verify official vendor pages in batches and update:
+- Availability and official link.
+- Free plan status.
+- Exact published daily/monthly/one-time quota, if explicitly documented.
+- Reset cadence and whether credits roll over.
+- Watermark and resolution/export limits.
+- Commercial-use rights and attribution.
+- Android support and account/payment requirements.
+- Last verified date and a backup option.
+
+If a quota is not published, write **"not publicly specified—check account dashboard"**. If a tool has no genuinely usable free access, label it **"not free for this workflow"** rather than padding the catalog. Do not invent token counts, daily credits, or "unlimited" claims.
+
+The catalog is deliberately larger than the recommended stack. The editor must choose by output quality, verified free allowance, creator's Android hardware, privacy, and rights—not by tool count.
