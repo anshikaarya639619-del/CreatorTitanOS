@@ -1,0 +1,23 @@
+services:
+  ai-router:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      HOST: 0.0.0.0
+      PORT: 8080
+      AI_REGISTRY_PATH: /app/providers.json
+      AI_TASK_DB: /app/data/tasks.sqlite3
+      SERVICE_BEARER_TOKEN: ${SERVICE_BEARER_TOKEN:?Set SERVICE_BEARER_TOKEN in the deployment environment}
+    volumes:
+      - ./providers.json:/app/providers.json:ro
+      - ai-router-data:/app/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+volumes:
+  ai-router-data:
