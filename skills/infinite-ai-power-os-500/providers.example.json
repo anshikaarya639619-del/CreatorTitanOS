@@ -1,0 +1,19 @@
+{
+  "providers": [
+    {
+      "id": "example-free-text",
+      "provider": "replace-with-verified-provider",
+      "model": "replace-with-documented-model",
+      "adapter": "your_adapter_name",
+      "capabilities": ["text", "code"],
+      "credential_env": "EXAMPLE_PROVIDER_API_KEY",
+      "cost_tier": "free",
+      "enabled": false,
+      "priority": 10,
+      "quota_status": "unknown",
+      "max_context_tokens": null,
+      "region": null,
+      "data_policy": "review-required"
+    }
+  ]
+}
