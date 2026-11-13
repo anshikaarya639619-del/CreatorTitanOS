@@ -27,4 +27,4 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Compile Python files
         working-directory: skills/infinite-ai-power-os-500
-        run: python -m py_compile router.py sqlite_store.py openai_compatible.py service.py
+        run: python -m py_compile router.py sqlite_store.py openai_compatible.py service.py queue_worker.py
