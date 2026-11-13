@@ -68,3 +68,10 @@ Docker Compose is a template; it does not deploy itself. SQLite is a single-node
 - `rate_limited`, `quota_exhausted`, `quota_unknown`, `disabled`: operational states.
 
 Never present a placeholder as a working provider.
+
+
+## Social platform scope
+- `social-platforms.json` inventories YouTube, Instagram, Facebook Pages, Threads, TikTok, X, LinkedIn, Pinterest, Bluesky and Mastodon.
+- `SOCIAL_INTEGRATIONS.md` defines the official OAuth, account verification, scope, draft approval, publishing, idempotency and analytics contract.
+- All social entries are disconnected by default. No platform-specific OAuth or publishing adapter is claimed as implemented until tested with a real authorized account.
+- `PRODUCTION_READINESS.md` records go-live gates and external operator dependencies.
