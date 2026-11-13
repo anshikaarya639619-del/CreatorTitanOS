@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0.0",
+  "purpose": "Integration inventory only; no account tokens or connected status implied.",
+  "platforms": [
+    {
+      "id": "youtube",
+      "name": "YouTube Data API v3",
+      "official_docs": "https://developers.google.com/youtube/data/guides/authentication",
+      "capabilities": [
+        "upload",
+        "channel_read",
+        "analytics"
+      ],
+      "auth": "oauth2",
+      "status": "documented_not_connected",
+      "connected": false,
+      "publishing_enabled": false,
+      "requires_user_authorization": true
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram Platform",
+      "official_docs": "https://developers.facebook.com/docs/instagram-platform/",
+      "capabilities": [
+        "publish_media",
+        "insights",
+        "comments"
+      ],
+      "auth": "meta_oauth",
+      "status": "documented_not_connected",
+      "connected": false,
+      "publishing_enabled": false,
+      "requires_user_authorization": true
+    },
+    {
+      "id": "facebook_pages",
+      "name": "Facebook Graph API",
+      "official_docs": "https://developers.facebook.com/docs/graph-api/",
+      "capabilities": [
+        "page_publish",
+        "page_insights"
+      ],
+      "auth": "meta_oauth",
+      "status": "documented_not_connected",
+      "connected": false,
+      "publishing_enabled": false,
+      "requires_user_authorization": true
+    },
+    {
+      "id": "threads",
+      "name": "Threads API",
+      "official_docs": "https://developers.facebook.com/docs/threads/",
+      "capabilities": [
+        "publish",
+        "insights"
+      ],
+      "auth": "meta_oauth",
+      "status": "documented_not_connected",
+      "connected": false,
+      "publishing_enabled": false,
+      "requires_user_authorization": true
+    },
+    {
+      "id": "tiktok",
+      "name": "Content Posting API",
+      "official_docs": "https://developers.tiktok.com/products/content-posting-api/",
+      "capabilities": [
+        "video_publish",
+        "video_upload"
+      ],
+      "auth": "oauth2",
+      "status": "documented_not_connected",
+      "connected": false,
+      "publishing_enabled": false,
+      "requires_user_authorization": true
+    },
+    {
+      "id": "x",
+      "name": "X API",
+      "official_docs": "https://docs.x.com/",
+      "capabilities": [
+        "post_create",
+        "read"
+      ],
+      "auth": "oauth2",
+      "status": "documented_not_connected",
+      "connected": false,
+      "publishing_enabled": false,
+      "requires_user_authorization": true
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn APIs",
+      "official_docs": "https://learn.microsoft.com/en-us/linkedin/",
+      "capabilities": [
+        "member_post",
+        "organization_post"
+      ],
+      "auth": "oauth2",
+      "status": "documented_not_connected",
+      "connected": false,
+      "publishing_enabled": false,
+      "requires_user_authorization": true
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest API v5",
+      "official_docs": "https://developers.pinterest.com/docs/",
+      "capabilities": [
+        "pin_create"
+      ],
+      "auth": "oauth2",
+      "status": "documented_not_connected",
+      "connected": false,
+      "publishing_enabled": false,
+      "requires_user_authorization": true
+    },
+    {
+      "id": "bluesky",
+      "name": "AT Protocol",
+      "official_docs": "https://docs.bsky.app/",
+      "capabilities": [
+        "post_create",
+        "feed_read"
+      ],
+      "auth": "oauth_or_app_password",
+      "status": "documented_not_connected",
+      "connected": false,
+      "publishing_enabled": false,
+      "requires_user_authorization": true
+    },
+    {
+      "id": "mastodon",
+      "name": "Mastodon API",
+      "official_docs": "https://docs.joinmastodon.org/api/",
+      "capabilities": [
+        "status_create",
+        "timeline_read"
+      ],
+      "auth": "instance_oauth",
+      "status": "documented_not_connected",
+      "connected": false,
+      "publishing_enabled": false,
+      "requires_user_authorization": true
+    }
+  ]
+}
