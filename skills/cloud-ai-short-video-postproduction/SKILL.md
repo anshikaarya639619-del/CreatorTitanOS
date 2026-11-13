@@ -783,3 +783,161 @@ If rights are unclear, mark **REFERENCE ONLY — NOT CLEARED FOR EDIT/EXPORT** a
 - If a platform blocks access in the current environment, state that exact platform limitation and continue searching other accessible sources.
 - In the final delivery report, list platforms actually searched, links to used sources, permissions/attribution status, and any content excluded because reuse rights were unclear.
 - Never claim "all social media searched" or "video downloaded/imported" unless each action was actually performed and confirmed.
+
+## 24. AI Story Director and Retention Intelligence
+
+### 24.1 Script-to-edit direction
+Before editing, parse the approved script into a beat sheet containing:
+- Beat ID, exact narration/dialogue, duration target, story purpose, emotional intent, and factual claims.
+- Recommended shot type, camera perspective, subject/action, background, composition, and visual source type.
+- On-screen text, caption emphasis, transition intent, SFX cue, music state, and any pause/silence.
+- Whether the beat requires real footage, creator-recorded footage, licensed stock, a generated visual, a diagram, or a simple typography shot.
+
+Do not invent facts, locations, identities, or documentary evidence. Label generated/reconstructed imagery where viewers could mistake it for real footage.
+
+### 24.2 Retention-aware pacing
+- Identify the opening hook, curiosity gap, stakes, escalation, reveal/payoff, and CTA.
+- Use pattern interrupts only when they reinforce meaning; avoid random zooms, flashes, or sound hits.
+- Review visual change frequency against narration and story complexity. Do not force a cut every few seconds if a longer shot communicates better.
+- Remove dead air and repetition while preserving natural pauses, emotional beats, and intelligibility.
+- Ensure every shot advances the story, clarifies information, or deliberately creates a useful pause.
+- Never promise virality, a specific retention rate, views, or engagement.
+
+### 24.3 Story approval and factual integrity
+Create a concise edit decision list before complex edits. Flag uncertain claims and request a reliable source or omit the claim. Keep a clear distinction between verified footage, illustrative visuals, AI-generated scenes, and reenactments.
+
+## 25. Visual Gap Detection and Footage Quality Inspection
+
+### 25.1 Visual gap detector
+Compare every narration beat against the planned and available footage. Flag:
+- Narration with no relevant visual.
+- Repeated, generic, or mismatched visuals.
+- Missing establishing shots, action coverage, reaction shots, or explanatory inserts.
+- Important names, places, dates, objects, or actions not visually supported.
+- Visuals that contradict the narration or imply an unverified fact.
+
+For each gap, recommend the least-cost lawful fix: use existing footage, record a simple insert, create a graphic, generate an explicitly illustrative visual, find a licensed asset, or revise the edit. Do not silently fill gaps with unrelated stock footage.
+
+### 25.2 Footage QC
+Inspect source and timeline media for:
+- Black/frozen frames, corrupt files, missing media, duplicate shots, accidental gaps, and abrupt unintended cuts.
+- Focus, motion blur, noise, exposure, white balance, compression artifacts, and resolution.
+- Aspect ratio, frame rate, orientation, stabilization, and audio/video sync.
+- Watermarks, unwanted overlays, private information, and rights/attribution issues.
+
+Flag defects with timecode and severity. Do not claim automated detection unless the available tool actually inspected the media.
+
+## 26. Pixel-Style Color and Image Consistency
+
+- Normalize exposure and white balance before applying a creative look.
+- Match shots across a scene for skin tone, contrast, saturation, highlight roll-off, and shadow detail.
+- Preserve natural skin tones and realistic colors; avoid crushed blacks, clipped highlights, oversharpening, excessive denoising, and neon saturation.
+- Use scopes or objective measurements when available; otherwise perform a calibrated visual review.
+- Apply a restrained, clean, modern, premium look rather than copying another brand's proprietary identity.
+- Treat Pixel-style as a quality direction, not a claim that footage was captured on a Google Pixel device.
+- Check the final export on a phone-sized display and, where possible, a second display.
+
+## 27. Smart Audio Synchronization and Mix Engineering
+
+- Align dialogue, narration, music, sound effects, and visual events to the actual timeline.
+- Use SFX to emphasize meaningful actions, transitions, reveals, and impacts; avoid masking speech or adding constant noise.
+- Automate music ducking under dialogue and restore it in intentional gaps.
+- Check phase, clipping, distortion, abrupt audio edits, unwanted silence, and sync drift.
+- Use fades and room tone where needed to prevent clicks and unnatural cuts.
+- Set loudness and true-peak targets according to the destination platform and current delivery requirements; measure the rendered file rather than assuming the editor's meter guarantees compliance.
+- Review on headphones and a phone speaker at a sensible listening level.
+- Do not fabricate a completed audio-sync or loudness check if no rendered export was inspected.
+
+## 28. Multilingual Subtitle and Caption QA
+
+- Generate captions from the final approved audio, then correct them against the spoken words.
+- Support requested languages and scripts only when the chosen transcription/translation engine handles them reliably.
+- Preserve names, numbers, local spellings, punctuation, and code-switching; do not silently translate proper nouns.
+- Break captions into readable phrase groups with sensible line length, timing, safe margins, and adequate contrast.
+- Check reading speed, speaker changes, overlaps, missing words, duplicated words, and captions obscuring faces or important action.
+- Keep translated subtitles faithful; do not add claims or change the speaker's meaning.
+- If confidence is low, flag the exact words/timecodes for human review instead of guessing.
+
+## 29. Platform Delivery and Export Profiles
+
+For each requested destination, verify current official platform specifications before final export. Maintain separate export profiles where requirements differ:
+- Canvas/aspect ratio and safe zones.
+- Resolution, frame rate, codec, container, bitrate/quality mode, and audio format.
+- Caption burn-in versus sidecar captions, where supported and requested.
+- File size, duration, thumbnail dimensions, and naming convention.
+- Platform-specific title, description, tags, and attribution package when requested.
+
+Default to a clean 9:16 short-form master only when that matches the brief. Preserve a high-quality master and create platform derivatives from it where practical. Never claim an upload or publication succeeded unless the platform confirms it.
+
+## 30. Copyright, Fact, Privacy, and Safety Preflight
+
+Before final export:
+- Verify source provenance, license/permission, attribution, commercial-use rights, and derivative-edit permissions for every third-party asset.
+- Check factual statements, dates, locations, statistics, names, and visual implications against reliable sources.
+- Flag synthetic media, reenactments, altered context, or AI-generated scenes where disclosure is needed to avoid misleading viewers.
+- Detect visible personal information, private messages, addresses, phone numbers, license plates, account identifiers, and bystanders who may require blurring or consent.
+- Check music and SFX licensing separately from footage licensing.
+- Do not treat attribution alone as a substitute for permission.
+- If a legal, privacy, or factual concern remains unresolved, hold the affected asset/claim and explain the issue; do not silently approve it.
+
+## 31. Low-RAM and Android-Aware Performance Engine
+
+- Detect actual device/editor constraints where the environment exposes them; otherwise ask for or state the assumed limits.
+- Prefer proxy media, optimized preview resolution, lightweight effects, short render segments, and sensible cache management.
+- Avoid unnecessary concurrent AI jobs, huge intermediate files, and effects that exceed device memory.
+- Preserve source media; use non-destructive edits and clear project folders.
+- Recommend cloud rendering or a desktop workflow only when available and authorized; do not assume the user has a PC or paid cloud credits.
+- If an operation is too heavy for the current Android device, provide the smallest practical workaround and identify which step requires another environment.
+- Never promise a render will complete on a low-memory device without testing.
+
+## 32. Thumbnail and Brand Identity System
+
+- Identify the single strongest truthful moment or visual idea that represents the video.
+- Design for legibility at small mobile sizes, clear subject hierarchy, strong contrast, and minimal text.
+- Preserve the creator's real identity when a reference photo is supplied; do not distort facial features or imply a false event.
+- Maintain a reusable brand kit: approved fonts, colors, logo usage, caption style, spacing, and motion rules.
+- Keep the design original; use quality principles as inspiration without copying protected logos, distinctive layouts, or another creator's exact thumbnail.
+- Check thumbnail crops at full size and small preview size. Do not promise click-through performance.
+
+## 33. Project Backup, Versioning, and Recovery
+
+- Use predictable folders for originals, licensed assets, generated assets, audio, project files, proxies, exports, and delivery notes.
+- Preserve original source files and never overwrite the only copy.
+- Save milestone versions before major edits, color changes, audio processing, and export.
+- Keep an asset manifest with source URL, creator, license/permission, attribution, and local filename.
+- Verify that project files reopen and media relinks before declaring the project editable and backed up.
+- Record export filename, settings, duration, file size, and checksum when tools support it.
+- Do not claim cloud backup or recovery unless the backup was actually created and verified.
+
+## 34. Analytics Feedback Loop
+
+When the creator supplies platform analytics or connects an authorized analytics source:
+- Review available metrics such as average view duration, retention curve, completion rate, replays, swipe-away rate, click-through rate, shares, saves, and comments where provided.
+- Compare videos with similar formats and audience conditions; avoid drawing conclusions from one small sample.
+- Map retention dips and spikes to exact edit timecodes when the data permits.
+- Produce testable hypotheses for the next edit: hook clarity, opening visual, pacing, caption density, story payoff, or CTA placement.
+- Change one or a small number of variables per test where practical.
+- Never fabricate analytics, claim access to private account metrics without a connection, or guarantee future performance.
+
+## 35. Final Video Quality Auditor and Delivery Gate
+
+A video is not marked final until the available checks have been completed against the rendered export:
+1. **Story:** hook, narrative continuity, factual accuracy, payoff, and CTA.
+2. **Visuals:** correct footage, no black/frozen frames, no accidental gaps, consistent framing, safe margins, and appropriate color.
+3. **Captions:** transcript accuracy, spelling, timing, readability, and safe placement.
+4. **Audio:** intelligible dialogue, balanced music/SFX, no clipping, no unintended silence, and sync.
+5. **Technical:** correct duration, aspect ratio, resolution, frame rate, codec/container, and playable file.
+6. **Rights and privacy:** cleared assets, required attribution, disclosures, and sensitive information handling.
+7. **Delivery:** correct filename, requested versions, thumbnail/caption package, and editable project if supported.
+
+Report each check as **PASS**, **FAIL**, **NOT CHECKED**, or **NOT SUPPORTED**. Include defects with timecodes and severity. Do not convert a skipped or unsupported check into PASS.
+
+### 35.1 Honest completion states
+- **EDITED:** timeline changes were actually made.
+- **EXPORTED:** a rendered file was actually produced.
+- **QC VERIFIED:** the rendered file was actually inspected against the applicable checklist.
+- **PROJECT HANDOFF:** editable project and required assets were verified as present/reopenable.
+- **PUBLISHED:** the platform confirmed publication.
+
+Use only the states that are true. If any stage is blocked by missing access, tools, permissions, credits, or device capability, identify the exact blocker and provide the next smallest actionable step.
+
