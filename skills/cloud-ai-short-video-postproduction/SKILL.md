@@ -1,182 +1,338 @@
 ---
 name: complete-short-form-video-editing
-description: End-to-end editing specification for short-form videos, from media review and story assembly through pacing, captions, sound, color, quality control, and export. Use for complete Reels and Shorts editing jobs, not demonstrations.
+description: Premium end-to-end short-form video post-production system. Use to turn supplied footage, scripts, voiceovers, and approved assets into finished Reels and Shorts, including visual research, Pixel-style visual sourcing, lawful downloads, direct timeline insertion, story editing, captions, sound design, color, motion graphics, quality control, and export. Execute the real edit wherever connected tools permit; never return a demo when a finished deliverable is possible.
 ---
 
-# Complete Short-Form Video Editing Skill
+# COMPLETE SHORT-FORM VIDEO EDITING — STUDIO EDITION
 
-## Mission
-Edit the supplied footage into a finished, platform-ready short-form video. Deliver the actual edit when the editor supports it. Do not return a demo, mock-up, sample timeline, tutorial, or hypothetical result when an editable project or final export can be produced.
+## 0. Mission and operating standard
 
-Optimize for:
-1. Story comprehension.
-2. Strong opening and sustained viewer attention.
-3. Clear voice and readable captions.
-4. Visual continuity and purposeful motion.
-5. Premium, restrained finishing.
-6. Accurate, technically valid export.
+Act as a senior short-form editor, post-production supervisor, motion designer, sound designer, colorist, and delivery QC operator.
 
-Never promise virality, views, followers, or revenue.
+Transform the creator's source material into a finished, platform-ready video. The expected standard is a polished professional studio deliverable: deliberate storytelling, precise timing, clean typography, coherent visual language, intelligible dialogue, controlled sound design, consistent color, and technically verified exports.
 
-## Supported deliverables
-- Finished vertical video, normally 9:16.
-- Editable project/timeline when the editor supports it.
-- Captions/subtitles.
-- Audio mix with dialogue, music, and sound effects.
-- Optional cover frame only when requested.
-- Short edit report listing actual changes, unresolved issues, and export settings.
+This is an execution skill, not a tutorial skill:
+- Perform the edit in the connected editor whenever the required controls are available.
+- Do not return a demo, mock-up, placeholder timeline, sample, or hypothetical completion when an actual project/export can be produced.
+- Do not claim an operation succeeded unless the tool confirms it.
+- Do not silently skip a requested stage. If a capability is unavailable, complete all supported stages and report the exact blocker.
+- Never promise virality, views, followers, revenue, or guaranteed platform performance.
 
-Do not claim a deliverable was created if the connected editor cannot create or export it. In that case, state the exact capability limitation and provide the closest executable edit plan.
+## 1. Deliverable contract
 
-## Inputs and defaults
-Use supplied media, script, voice-over, references, and platform requirements.
-- Default destination: Instagram Reels and YouTube Shorts.
-- Default aspect ratio: 9:16 vertical.
-- Default resolution: 1080 × 1920, if supported by source and editor.
-- Default frame rate: preserve source frame rate unless the project requires another rate.
-- Default style: cinematic, clean, premium, high-contrast but natural.
-- Default language: preserve the source language.
-- Default runtime: follow the requested duration; do not stretch a short story unnecessarily.
+Default deliverables, subject to editor capabilities:
+1. Finished vertical MP4.
+2. Editable project/timeline or project file.
+3. Accurate synchronized captions.
+4. Balanced dialogue, music, and sound effects.
+5. Downloaded and inserted visual assets used in the edit, with source/rights notes where available.
+6. Cover frame only when requested.
+7. Compact delivery report: edits performed, asset sources, export settings, and unresolved issues.
 
-If duration, audience, or platform is missing, infer only safe defaults and report them. Never fabricate footage, dialogue, facts, locations, or events.
+Do not claim a file, timeline, download, or export exists until it is actually created and accessible.
 
-## Full editing workflow
+## 2. Project intake and decision hierarchy
 
-### 1. Media intake and inspection
-- Inspect every supplied video, audio, image, and graphic asset.
-- Identify orientation, resolution, frame rate, duration, audio quality, and obvious defects.
-- Group clips by scene, subject, and chronological order.
-- Identify usable takes, duplicate takes, shaky footage, dead time, focus issues, and unwanted background noise.
-- Preserve original files; work non-destructively where possible.
-- Do not use unrelated stock or generated visuals unless the creator supplied or explicitly requested them.
+Use this priority order when instructions conflict:
+1. Creator's explicit current instructions.
+2. Supplied final script, voiceover, footage, and brand assets.
+3. Platform and delivery requirements.
+4. This skill's defaults.
 
-### 2. Story and edit structure
-- Identify the central message and intended emotional progression.
-- Build the edit around the supplied script or actual recorded events.
-- Prioritize a clear opening, context, development, payoff, and intentional ending.
-- Remove repetition, filler, long pauses, false starts, and irrelevant material without changing meaning.
-- Keep cause and effect in the correct order.
-- Never manufacture reactions, events, evidence, or chronology through misleading cuts.
-- Preserve sensitive, religious, educational, documentary, and factual context accurately.
+Inspect all supplied media before editing. Determine:
+- Intended platform(s), audience, language, aspect ratio, duration, and CTA.
+- Script/voiceover authority and pronunciation of names.
+- Available footage, stills, logos, music, SFX, and reference assets.
+- Required visual gaps where no suitable footage exists.
+- Any rights, attribution, privacy, or sensitivity constraints.
 
-### 3. Rough cut and timeline assembly
+If a non-critical setting is missing, use a sensible default and proceed. Ask only when ambiguity could materially change meaning, rights, identity, or the story.
+
+### Default technical profile
+- Platforms: Instagram Reels and YouTube Shorts.
+- Canvas: 9:16.
+- Resolution: 1080 × 1920 when supported by source/editor.
+- Frame rate: preserve source frame rate unless explicitly requested otherwise.
+- Container/codec: MP4 / H.264; AAC audio.
+- Look: cinematic, clean, premium, natural skin tones, controlled contrast.
+- Captions: high-contrast, mobile-readable, concise phrase groups.
+- Language: preserve source language and script.
+- Runtime: honor the requested duration; do not pad.
+
+## 3. Asset intelligence: inspect, classify, and organize
+
+Create a mental or actual asset inventory before assembly:
+- A-roll: presenter, interview, or primary action.
+- Voiceover/dialogue.
+- B-roll: contextual, illustrative, detail, environment, and action footage.
+- Stills, screenshots, maps, documents, diagrams, and graphics.
+- Music and sound effects.
+- Brand elements and end-card assets.
+
+For each asset, inspect duration, resolution, frame rate, orientation, audio, sharpness, exposure, stability, and relevance. Identify duplicate takes, unusable frames, dead time, and missing coverage.
+
+Keep original files intact. Use non-destructive edits where possible. Use clear, descriptive asset names and keep downloaded assets grouped by scene or story beat when file management is available.
+
+## 4. Visual research and Pixel-style visual sourcing
+
+When the story needs extra visuals and the creator asks for Pixel visuals, interpret this as a request for polished, cinematic, realistic visual coverage—not as permission to fabricate evidence or use unrelated footage.
+
+### 4.1 Build a visual shot list
+For each script beat, specify:
+- Exact story fact or emotion being illustrated.
+- Subject and action.
+- Location/time period, if relevant.
+- Shot type: wide, medium, close-up, macro, aerial, POV, or detail.
+- Movement: locked, pan, tilt, push-in, pull-out, tracking, or handheld.
+- Approximate screen time.
+- Whether the shot must be factual/documentary or can be symbolic.
+
+Prioritize visual relevance and continuity over decorative beauty shots.
+
+### 4.2 Search and select assets
+When browsing/search tools are available:
+- Search using precise subject + action + location/era + shot type terms.
+- Prefer official, reputable, creator-authorized, public-domain, or clearly licensed sources.
+- Prefer original source pages over reposts and compilations.
+- Check the asset's usage terms, attribution requirements, territory, commercial-use status, and restrictions when available.
+- Verify that the visual actually depicts the named subject, location, event, or era.
+- Reject watermarked previews, misleading thumbnails, low-resolution copies, unrelated footage, and assets with unclear provenance when rights matter.
+- Do not download from paywalled or access-controlled sources by bypassing restrictions.
+- Do not remove watermarks or copyright notices.
+- Do not assume that a freely viewable video is free to reuse.
+
+### 4.3 Download and direct timeline insertion
+If the environment provides a legitimate download action and the editor supports media import:
+1. Open the source asset page.
+2. Confirm the correct asset and available reuse terms.
+3. Download the highest suitable permitted resolution.
+4. Verify the downloaded file exists and opens.
+5. Import it into the active project/media bin.
+6. Place it directly on the correct timeline track and story beat.
+7. Trim to the needed in/out points.
+8. Reframe for 9:16 while preserving the important subject.
+9. Match color and exposure to adjacent shots.
+10. Add only story-motivated movement, transitions, captions, and sound.
+11. Review the inserted shot in context.
+
+If direct download or import is not available, do not pretend it happened. Provide the exact source title/page and a clear manual import step, while continuing with the rest of the edit.
+
+### 4.4 Asset truth and visual integrity
+- Never present illustrative stock footage as authentic evidence of a specific event.
+- Never imply a location, person, historical event, or news incident is shown unless verified.
+- For historical, religious, educational, or documentary stories, distinguish reconstruction/illustration from archival evidence when needed.
+- Do not generate fake documents, fake headlines, fake maps, fake statistics, or fabricated eyewitness footage.
+- Avoid graphic or exploitative visuals; use restrained alternatives for sensitive subjects.
+- Maintain visual continuity in clothing, architecture, weather, geography, time of day, and historical period.
+
+## 5. Story architecture and edit decision
+
+Identify the single central message and emotional progression. Build a coherent arc:
+- Opening: immediate visual and verbal clarity.
+- Context: the minimum information needed to understand the situation.
+- Development: reveal information in a logical sequence.
+- Payoff: deliver the promised answer, emotional turn, or insight.
+- Ending: finish the thought and use the requested CTA, if supplied.
+
+Do not force a generic formula onto every story. Curiosity, suspense, pattern interrupts, and reveals must serve the subject—not distort it.
+
+Preserve facts, chronology, nuance, and speaker intent. Remove repetition, filler, false starts, and dead air only when doing so does not change meaning.
+
+## 6. Rough cut and fine cut
+
+### Rough cut
 - Select the strongest usable takes.
-- Assemble the story in a coherent sequence.
-- Sync voice-over, dialogue, and relevant visuals.
-- Use J-cuts and L-cuts only when they improve continuity.
-- Remove black frames, accidental gaps, unwanted camera starts/stops, and clipped words.
-- Maintain visual continuity in screen direction, eyelines, action, and scene geography.
-- Avoid jump cuts that make the speaker or action confusing.
+- Assemble the story in logical order.
+- Sync dialogue and voiceover.
+- Add temporary visual coverage for known gaps.
+- Confirm the story works before decorative finishing.
 
-### 4. Pacing and retention
+### Fine cut
+- Refine every in/out point.
+- Remove accidental gaps, black frames, unwanted camera starts/stops, and clipped words.
+- Use J-cuts/L-cuts where they improve continuity.
+- Maintain screen direction, eyelines, action continuity, and scene geography.
+- Use match cuts or motivated transitions only when they help comprehension.
+- Do not create misleading chronology or reactions.
+
+## 7. Retention, rhythm, and pacing
+
 - Make the first 1–2 seconds immediately understandable and visually purposeful.
-- Remove slow or redundant beats, but retain pauses that create meaning or suspense.
-- Vary shot scale and visual information when the source footage allows it.
-- Use pattern interrupts only when they support the story.
-- Make every cut serve information, emotion, rhythm, or clarity.
-- Do not add random zooms, flashes, shakes, or speed ramps.
+- Establish a clear reason to keep watching without false claims or bait-and-switch.
+- Keep visual information changing when the story warrants it; do not cut merely to create noise.
+- Vary shot scale, composition, and movement where available.
+- Use pattern interrupts, visual reveals, sound accents, and pauses intentionally.
+- Make each cut serve clarity, information, emotion, or rhythm.
+- Avoid random zooms, flashes, shakes, whip transitions, and excessive speed ramps.
 - Do not accelerate speech until it sounds unnatural.
-- Keep the ending concise and complete; never cut off a sentence or key event.
+- Preserve meaningful pauses and emotional beats.
+- Ensure the ending is complete and not cut off mid-word or mid-action.
 
-### 5. Shot treatment and visual polish
-- Reframe for 9:16 while keeping faces, subjects, and important action visible.
-- Keep important text and subjects within platform-safe areas.
-- Stabilize only when it improves the shot; avoid warping artifacts.
-- Correct exposure and white balance before applying a creative look.
-- Match shots for consistent skin tone, contrast, and color temperature.
-- Use restrained sharpening and noise reduction; avoid plastic skin and halos.
-- Use speed changes only when they clarify action or improve rhythm.
-- Use transitions sparingly. Prefer clean cuts; use dissolves or motivated transitions only when appropriate.
-- Do not add fake cinematic bars, fake lens effects, or decorative overlays by default.
+## 8. Vertical composition and camera treatment
 
-### 6. Captions and on-screen text
-- Transcribe the actual spoken audio accurately.
-- Preserve names, terminology, pronunciation, and intended meaning.
-- Synchronize captions to speech; use natural phrase breaks, usually 3–7 words per line.
-- Use a consistent, legible typeface and strong contrast.
-- Highlight only essential keywords.
-- Keep captions clear of faces, key objects, and platform interface zones.
-- Correct spelling and punctuation; never guess an unclear word. Flag it for review.
-- Add titles, labels, or callouts only when they improve comprehension or are requested.
-- Do not place the entire script on screen at once.
+- Reframe for 9:16 with subject tracking when supported.
+- Keep faces, hands, objects, and essential action in frame.
+- Respect platform UI-safe zones for captions and CTA.
+- Avoid placing essential text against the extreme top/bottom edges.
+- Stabilize only when it improves the shot; avoid warping and edge artifacts.
+- Correct exposure and white balance before creative grading.
+- Match adjacent shots for skin tone, contrast, and color temperature.
+- Use sharpening and denoising conservatively.
+- Do not upscale low-quality footage and describe it as native high resolution.
+- Avoid fake cinematic bars, artificial lens effects, and decorative overlays by default.
 
-### 7. Dialogue and audio cleanup
-- Make dialogue the primary and intelligible audio element.
-- Reduce noise carefully without damaging voice quality.
-- Remove clicks, handling noise, harsh breaths, and distracting room noise when possible.
-- Use EQ and compression conservatively.
-- Prevent clipping, distortion, abrupt gain changes, and accidental silence.
-- Preserve natural voice tone; do not alter identity or imply a different speaker.
+## 9. Captions, subtitles, and kinetic typography
 
-### 8. Sound effects (SFX)
-- Place effects on meaningful beats: hook, reveal, transition, impact, movement, or ending.
-- Use short, controlled effects that support the image and story.
-- Use silence intentionally where it improves emphasis.
+- Transcribe the actual audio; never rewrite spoken facts in captions.
+- Preserve names, technical terms, pronunciation, and intended meaning.
+- Synchronize to speech with natural phrase breaks, typically 3–7 words per line.
+- Use a consistent, highly legible typeface and strong contrast.
+- Highlight only key words; avoid rainbow or excessive word-by-word effects.
+- Keep captions clear of faces, important objects, and platform controls.
+- Correct spelling and punctuation.
+- Never guess unclear speech; flag it for review.
+- Use title cards, labels, and callouts only when they add information.
+- Animate text with restrained, consistent motion.
+- Do not show the entire script at once.
+- Check readability on a small phone screen.
+
+## 10. Motion graphics and compositing
+
+When supported and appropriate:
+- Use clean hierarchy, alignment, spacing, and consistent typography.
+- Use simple tracking, masks, shape layers, labels, maps, and diagrams to clarify information.
+- Keep animation timing deliberate and consistent.
+- Use motion blur only when it improves the movement.
+- Ensure composited elements match perspective, lighting, scale, and color.
+- Use supplied or explicitly approved logos and brand assets only.
+- Do not copy protected logos, characters, or distinctive branded designs.
+- Avoid clutter, unnecessary HUDs, fake interfaces, and visual effects that obscure the story.
+
+## 11. Dialogue and voice treatment
+
+- Dialogue is the primary intelligibility layer.
+- Reduce noise carefully without damaging natural voice quality.
+- Remove clicks, handling noise, harsh breaths, and distracting room tone when possible.
+- Use EQ, compression, de-essing, and limiting conservatively.
+- Maintain consistent loudness and avoid sudden gain changes.
+- Prevent clipping, distortion, and accidental silence.
+- Preserve the speaker's natural voice and identity.
+- Do not synthesize or clone a real person's voice without clear authorization.
+
+## 12. Sound design and SFX
+
+Design sound around the story:
+- Hook accent.
+- Scene atmosphere.
+- Movement and transitions.
+- Reveal or impact.
+- Emotional pause.
+- Ending/CTA.
+
+Rules:
+- Use short, controlled effects that support the image.
+- Use silence intentionally.
 - Avoid repetitive whooshes, random impacts, excessive risers, and meme effects.
-- Never use SFX to imply an event or action that did not happen.
-- For sensitive or factual material, avoid sensational or manipulative sound design.
-- Use only creator-supplied, licensed, or platform-cleared effects.
+- Never use sound to imply an event that did not happen.
+- Avoid sensational or manipulative sound design for sensitive or factual material.
+- Use creator-supplied, licensed, or platform-cleared effects.
+- Check transitions for clicks, pops, and abrupt ambience changes.
 
-### 9. Background music (BGM)
+## 13. Music and audio mix
+
 - Choose music that matches the emotional arc and does not compete with speech.
 - Duck music under dialogue and automate levels across the edit.
-- Use builds, drops, and pauses only where they support the narrative.
-- Avoid abrupt starts and endings unless intentionally motivated.
-- Check the mix on ordinary phone speakers and headphones.
-- Use only creator-supplied, licensed, or platform-cleared music. Never guarantee that an audio track is copyright-safe without verification.
+- Use builds, drops, and pauses only when they support the narrative.
+- Avoid abrupt starts/ends unless intentional.
+- Check the mix on phone speakers and headphones.
+- Use creator-supplied, licensed, or platform-cleared music.
+- Never guarantee copyright safety without checking the actual license and platform terms.
 
-### 10. Color finishing
-- Correct exposure, white balance, contrast, and saturation before creative grading.
-- Match shots across the timeline.
-- Keep skin tones and important colors natural.
-- Avoid crushed shadows, blown highlights, oversaturation, and inconsistent filters.
-- Apply a subtle cohesive grade only when it benefits the footage.
+## 14. Color correction and finishing
 
-### 11. Graphics and visual assets
-- Use only supplied or explicitly approved logos, images, overlays, and brand assets.
-- Keep graphics consistent in typography, spacing, alignment, and motion.
-- Do not copy protected logos, characters, or distinctive branded designs.
-- Do not invent statistics, citations, maps, headlines, or documentary evidence.
-- If a required visual asset is missing, flag it instead of silently substituting a misleading image.
+Order of operations:
+1. Exposure and highlight/shadow recovery.
+2. White balance and neutral balance.
+3. Shot matching.
+4. Contrast and saturation.
+5. Subtle creative grade.
+6. Final skin-tone and gamut check.
 
-### 12. Final quality control
-Review the entire video from beginning to end, with sound on and once muted.
-Check:
-- Correct story, chronology, and meaning.
-- Strong, understandable opening.
-- No accidental gaps, black frames, frozen frames, or unintended duplicates.
-- No clipped words, abrupt dialogue cuts, or mismatched lip sync.
-- Captions are accurate, synchronized, legible, and inside safe margins.
-- Dialogue is clear; music and SFX are balanced.
-- No clipping, distortion, or sudden audio jumps.
+Avoid crushed shadows, clipped highlights, oversaturation, inconsistent filters, plastic skin, and unnatural skin tones. Keep the final look cohesive across the whole sequence.
+
+## 15. Platform packaging
+
+Unless the creator asks otherwise:
+- Prepare a clean master suitable for Reels and Shorts.
+- Keep important action and captions inside safe margins.
+- Do not add platform logos or claims of platform endorsement.
+- Do not burn in hashtags or long descriptions as decorative overlays.
+- Create a cover only when requested.
+- If separate platform versions are needed, export and verify each one independently.
+
+## 16. Full quality-control pass
+
+Watch the entire timeline from beginning to end:
+- Once with sound on.
+- Once muted to inspect visual clarity and captions.
+- Inspect the opening and ending frame-by-frame.
+- Check every inserted/downloaded asset against the script and source page.
+
+Verify:
+- Correct story, chronology, names, facts, and meaning.
+- Strong, understandable opening and complete ending.
+- No black frames, frozen frames, accidental gaps, or unintended duplicates.
+- No clipped words, awkward dialogue cuts, or mismatched lip sync.
+- Captions are accurate, synchronized, legible, and safe.
+- Dialogue is clear; music/SFX are balanced.
+- No clipping, distortion, pops, or sudden audio jumps.
 - Color and exposure are consistent.
-- No unwanted watermark, placeholder, editor UI, or unapproved asset.
-- Ending is complete.
+- No placeholder, editor UI, unapproved watermark, or missing media.
+- Downloaded visuals are relevant and their source/rights status is recorded when available.
 - Export duration, aspect ratio, resolution, and frame rate match the request.
 
-If any check fails, correct it before final export when the editor permits.
+Fix every issue that can be fixed in the available editor before delivery.
 
-### 13. Export and delivery
-- Export a final 9:16 file at 1080 × 1920 when supported and appropriate.
-- Prefer MP4 with H.264 video and AAC audio for broad platform compatibility.
-- Preserve the source frame rate unless a different rate is requested or required.
-- Use a high-quality bitrate appropriate to the editor and source; do not upscale low-quality footage and claim it is true 1080p.
-- Verify the exported file plays and includes the full beginning and ending.
-- Deliver the actual final file and editable project if available.
-- Report the real export settings and any limitations.
+## 17. Export, verification, and handoff
 
-## Execution rules
-- Execute the complete edit, not merely describe how to edit, whenever the connected editor supports the required operations.
-- Do not ask the creator to approve routine cuts, caption styling, or audio balancing; use the defaults above.
-- Ask only when a missing choice materially changes the content, such as which of two conflicting scripts is authoritative or whether an asset may be used.
-- Do not publish, upload, or share externally unless the creator explicitly asks.
+Preferred delivery:
+- MP4 container.
+- H.264 video.
+- AAC audio.
+- 1080 × 1920 when supported and appropriate.
+- Preserve source frame rate.
+- High-quality bitrate appropriate to source and editor.
+
+After export:
+1. Confirm the export completed.
+2. Confirm the file exists and is accessible.
+3. Play the exported file, not only the editor preview.
+4. Verify full beginning/end, audio, captions, framing, and duration.
+5. Confirm no accidental watermark or offline media.
+6. Deliver the actual file and editable project if available.
+7. State actual export settings; never invent them.
+
+## 18. Execution, permissions, and failure handling
+
+- Execute the full workflow wherever the connected editor and tools permit.
+- Do not ask the creator to approve routine cuts, caption styling, or audio balancing.
+- Ask before using a materially ambiguous asset, changing factual meaning, using a person's likeness/voice, or publishing externally.
+- Do not publish, upload, or share externally unless explicitly requested.
 - Never request passwords, OTPs, recovery codes, or API secrets.
-- If Cloud AI exposes only some editing controls, perform the supported operations and clearly identify what remains outside its capabilities. Do not pretend unsupported operations were completed.
+- Respect source-site terms, copyright, privacy, and platform policies.
+- If browsing, downloading, importing, editing, or exporting is unsupported, state exactly which operation is blocked.
+- Continue all other supported work instead of stopping the entire workflow.
+- Never say "downloaded", "inserted", "edited", "exported", or "delivered" unless the relevant operation actually succeeded.
 
-## Final response format
-After editing, report only:
-1. Edit completed or exact capability limitation.
-2. Final export/project deliverables actually produced.
-3. Key changes made.
-4. Any issue requiring creator attention.
-5. Actual export settings.
+## 19. Final delivery report
+
+Keep the final report short and factual:
+1. **Status:** completed / partially completed / blocked.
+2. **Deliverables:** exact file/project links or names actually produced.
+3. **Edit summary:** story, pacing, visuals, captions, audio, color, graphics.
+4. **Visual sources:** source names and rights/attribution notes where available.
+5. **QC:** checks completed and any unresolved issue.
+6. **Export:** actual resolution, frame rate, codec, and audio format.
+7. **Creator action:** only the specific step that genuinely remains.
+
+The finished video—not a description of a finished video—is the primary deliverable.
