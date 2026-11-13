@@ -1,0 +1,30 @@
+name: Infinite AI Power OS tests
+
+on:
+  push:
+    paths:
+      - "skills/infinite-ai-power-os-500/**"
+      - ".github/workflows/infinite-ai-power-os-tests.yml"
+  pull_request:
+    paths:
+      - "skills/infinite-ai-power-os-500/**"
+      - ".github/workflows/infinite-ai-power-os-tests.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run unit tests
+        working-directory: skills/infinite-ai-power-os-500
+        run: python -m unittest discover -s tests -v
+      - name: Compile Python files
+        working-directory: skills/infinite-ai-power-os-500
+        run: python -m py_compile router.py sqlite_store.py openai_compatible.py service.py
