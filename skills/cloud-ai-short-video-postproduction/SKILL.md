@@ -715,3 +715,71 @@ If processing makes the voice less natural, back off the effect. Deliver the bes
 
 ### 22.7 Voice-processing report
 In the final delivery report, state which operations were actually applied (for example: rumble removal, denoise, de-reverb, EQ, de-ess, compression, level automation, limiting), which tools were used, and any remaining noise or source limitation. Never claim a noise was removed unless the exported audio was checked.
+
+
+## 23. Social-media visual research and lawful asset intake
+
+The creator may request relevant visuals from social-media platforms as source material for an edit. Treat social platforms as **discovery and reference sources**, not as automatically reusable or downloadable stock libraries.
+
+### 23.1 Platform discovery coverage
+When search/browsing access is available, search relevant public content across platforms where permitted, including:
+- YouTube and YouTube Shorts.
+- Instagram Reels and public posts.
+- TikTok public videos.
+- Facebook public posts and videos.
+- X public posts and video posts.
+- Pinterest pins.
+- Reddit public posts and video/media threads.
+- Snapchat Spotlight public content, where accessible.
+- Twitch public clips and VOD excerpts, where accessible.
+- LinkedIn public posts and media, when relevant to the subject.
+
+Platform availability, search indexing, regional access, login requirements, and tool support vary. Never claim every platform was searched if it was not actually accessible. Record which platforms were checked and which were unavailable.
+
+### 23.2 Search workflow
+For each script beat:
+1. Create precise keyword, hashtag, subject, location, language, and date-range queries.
+2. Search for original posts and primary-source uploads before reposts or compilations.
+3. Check the uploader/account identity and whether the post is authentic and contextually relevant.
+4. Verify the date, location, event, people, and claims where factual accuracy matters.
+5. Inspect the full post and surrounding context; do not rely on a thumbnail, clipped excerpt, caption, or comments alone.
+6. Save the canonical post URL, creator/account name, post date if visible, access date, and intended scene.
+7. Prefer content explicitly licensed for reuse, public-domain material, creator-authorized assets, or content for which the creator has obtained permission.
+
+### 23.3 Download, embed, and reuse permissions
+- A public post is not automatically public domain or free to reuse.
+- Download or import social-media media only through platform-provided download/export features, official APIs, creator-provided files, or another method that is lawful and permitted by the platform's terms and the rights holder.
+- Do not bypass login walls, private-account settings, DRM, technical restrictions, rate limits, or download controls.
+- Do not scrape at scale, automate engagement, harvest private data, or use unauthorized third-party downloaders.
+- Do not remove watermarks, usernames, copyright notices, or attribution.
+- Do not re-upload another creator's complete video or substantial footage as if it were original work.
+- Fair use/fair dealing is fact-specific and jurisdiction-dependent; do not declare an asset legally safe merely because the edit is commentary, educational, transformative, or short.
+- If the creator wants to use a clip without a clear reuse license, seek permission or use it only in a manner approved by the rights holder and reviewed for applicable law/platform rules.
+- Where direct download is not permitted, use a permitted embed/link/reference for research, request the original file/permission from the creator, or find a licensed alternative. Do not capture/re-record restricted media as a workaround.
+
+### 23.4 Rights and attribution ledger
+For every social-sourced asset actually used, record:
+- Platform and canonical post URL.
+- Original creator/account and visible credit details.
+- Original post date and access date, if available.
+- Asset title/description and exact portion used.
+- Permission/license basis and any required attribution.
+- Commercial-use and derivative-edit permission status.
+- Restrictions or unresolved rights questions.
+
+If rights are unclear, mark **REFERENCE ONLY — NOT CLEARED FOR EDIT/EXPORT** and do not insert it into the final video as reusable footage.
+
+### 23.5 Social visual selection and editing
+- Select clips for factual relevance, visual quality, resolution, stability, and continuity.
+- Check whether the clip is authentic, staged, AI-generated, edited, old, or reposted when that distinction matters.
+- Avoid misleading context, false attribution, deceptive cropping, or edits that change the meaning of the original post.
+- Keep original aspect ratio metadata and reframe for 9:16 only when the key action remains visible.
+- Preserve creator credit and required attribution in the video or description as required by the license/permission.
+- Use platform-native remix/duet/stitch features only where the creator specifically wants that workflow and platform rules allow it; do not assume those permissions extend to off-platform reuse.
+
+### 23.6 Access and execution reporting
+- If platform search is available but media download is blocked, provide the canonical post link and explain that the media is research/reference only.
+- If login or account authorization is required, ask the creator to provide an approved share link or original media file; never request their password, OTP, or recovery code.
+- If a platform blocks access in the current environment, state that exact platform limitation and continue searching other accessible sources.
+- In the final delivery report, list platforms actually searched, links to used sources, permissions/attribution status, and any content excluded because reuse rights were unclear.
+- Never claim "all social media searched" or "video downloaded/imported" unless each action was actually performed and confirmed.
