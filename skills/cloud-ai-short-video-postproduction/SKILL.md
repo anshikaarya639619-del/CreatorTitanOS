@@ -336,3 +336,85 @@ Keep the final report short and factual:
 7. **Creator action:** only the specific step that genuinely remains.
 
 The finished video—not a description of a finished video—is the primary deliverable.
+
+
+## 20. Free-first AI toolkit and always-free operating policy
+
+The creator wants a ₹0-first workflow. Prefer genuinely free, open-source, self-hostable, or permanently free-tier tools before considering paid services. Do not assume any online AI service is free forever, unlimited, or available in every country.
+
+### 20.1 Non-negotiable cost rules
+- Default budget: ₹0. Do not start a paid trial, subscription, paid API, credit purchase, or auto-renewing plan.
+- Never enter payment details or activate a trial to unlock a workflow unless the creator explicitly approves.
+- Distinguish clearly between: **open-source/free software**, **free hosted tier with limits**, **temporary promotion/trial**, and **paid**.
+- "Free tier" does not mean unlimited. Never describe a tool as unlimited or forever-free unless its official terms explicitly support that claim—and re-check those terms before relying on it.
+- Before recommending a hosted AI tool, verify current official pricing/limits, watermark policy, commercial-use rights, export/download limits, region availability, and account requirements.
+- If pricing or terms cannot be verified, label the tool "unverified—do not depend on it".
+- Do not route around usage limits, payment walls, account restrictions, or service protections.
+
+### 20.2 Tool-selection ladder
+Choose the first option that can complete the task at acceptable quality:
+1. Existing tools already available to the creator/editor at no extra cost.
+2. Free and open-source software that can run locally or be self-hosted.
+3. Official free hosted tiers, with their current limits stated.
+4. A manual editing fallback using available free tools.
+5. Paid tools only after the creator explicitly approves the price and reason.
+
+Prefer lightweight browser/mobile workflows where practical. Consider the creator's Android device constraints and low-memory hardware: avoid workflows that require a powerful PC, large local models, or long background rendering unless an alternative is offered.
+
+### 20.3 AI capability categories to evaluate
+For each project, identify only the AI capabilities actually needed:
+- Script analysis, scene/shot-list planning, and storyboard prompts.
+- Visual search and asset discovery.
+- Image generation or image editing.
+- Image-to-video or text-to-video generation.
+- Speech-to-text transcription and subtitle timing.
+- Text-to-speech, only when requested and appropriately licensed.
+- Voice cleanup, denoising, and audio enhancement.
+- Music/SFX discovery or generation, with rights checks.
+- Background removal, object removal, tracking, and masking.
+- Auto-reframing, silence removal, and rough-cut assistance.
+- Caption styling, translation, and proofreading.
+- Quality checks and export verification.
+
+Do not add an AI step just because it exists. Use AI only when it improves the result and can be used within the cost and rights rules.
+
+### 20.4 Free-tool verification and fallback registry
+Maintain a small project-specific tool list with:
+- Tool name and official website/repository.
+- Task it performs.
+- Pricing category (open-source, free tier, trial, paid).
+- Current known limits and last-checked date.
+- Watermark/export restrictions.
+- Commercial-use/license notes.
+- Android/mobile compatibility and account/payment requirements.
+- Fallback if the tool becomes unavailable or changes its free plan.
+
+Prefer official product pages, official documentation, and official source-code repositories for verification. Re-check before each new project if the tool is central to delivery. Do not rely on old blog posts or promotional claims for pricing.
+
+### 20.5 No-single-provider dependency
+- Keep the workflow modular so one AI service can be replaced without rebuilding the whole edit.
+- Maintain a non-AI/manual fallback for every critical stage where feasible.
+- Keep source media and project files portable where the editor permits.
+- Do not store credentials, API keys, or private tokens in the skill, project notes, or public repository.
+- Never expose private creator media to a third-party AI service without the creator's authorization.
+
+### 20.6 AI output quality and rights
+- Treat generated images, video, voice, music, captions, and facts as unverified until checked.
+- Verify names, locations, dates, religious/historical details, and factual claims against reliable sources when accuracy matters.
+- Check generated media for visual glitches, distorted faces/hands, text errors, flicker, inconsistent objects, and continuity defects.
+- Do not imitate a living creator's distinctive style or clone a person's voice without authorization.
+- Use only assets whose license permits the intended use; retain attribution where required.
+- Never represent generated reconstructions as real archival footage.
+
+### 20.7 Cost gate before execution
+Before starting any external AI generation or cloud render:
+1. Identify whether the action is free, limited-free, trial, or paid.
+2. Confirm whether it consumes credits or triggers a subscription.
+3. Confirm export/download and watermark conditions.
+4. If any cost or payment requirement is unclear, stop that paid-risk action and use a free fallback.
+5. Report unavoidable limitations honestly.
+
+### 20.8 User-facing cost report
+At delivery, include a concise line:
+- **Cost:** ₹0 spent / free-tier usage (limits apply) / paid action requested and approved.
+Never claim "all-time free" for a third-party service. The system's commitment is **free-first, no surprise charges, replaceable tools, and transparent limits**.
