@@ -37,3 +37,11 @@ python service.py
 
 ## Important deployment limits
 The SQLite store is suitable for a single-node starter deployment; it is not a distributed queue. Use a managed database/queue and encrypted secret manager for multiple replicas. Docker Compose runs the API and queue worker as separate restartable containers using a shared SQLite volume. It is a deployment template, not a deployed cloud service. A real 24/7 uptime claim requires selecting a host, configuring secrets and storage, deploying, monitoring and testing recovery. No provider is live until it has been authenticated and health-checked.
+
+
+## Social integrations
+- `social-platforms.json`: 10-platform integration inventory with explicit disconnected defaults.
+- `SOCIAL_INTEGRATIONS.md`: OAuth, app-review, publishing approval, idempotency and analytics contract.
+- `PRODUCTION_READINESS.md`: remaining external setup and go-live gates.
+
+No social account is connected and no post can be published until official OAuth credentials, permissions and platform-specific adapters are configured and verified. See the checklist before deployment.
