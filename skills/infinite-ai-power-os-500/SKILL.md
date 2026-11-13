@@ -66,7 +66,7 @@ Install FFmpeg separately and use `media_pipeline.py` for local media conversion
 
 ## Scheduling, security and observability
 - `scheduler.py` stores timezone-aware jobs in SQLite and atomically claims due jobs for a single-node worker. A crash-recovery lease/requeue loop and multi-node coordination remain to be implemented.
-- `security.py` provides constant-time bearer comparison and an in-memory rate limiter. The HTTP service still needs production integration, distributed limits, TLS, WAF and abuse controls.
+- `security.py` provides constant-time bearer comparison and an in-memory rate limiter; `service.py` now enforces both for generation requests. Distributed limits, TLS, WAF and production abuse controls remain.
 - `observability.py` redacts common secret/prompt fields and offers process-local counters. Export to OpenTelemetry/Prometheus and configure alerts before production.
 - `dashboard/index.html` is a read-only starter, not an admin control plane.
 

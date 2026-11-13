@@ -17,7 +17,7 @@
 ## Still blocked on external operator setup / engineering
 - [ ] Add actual provider credentials as deployment secrets; verify each provider with live requests.
 - [ ] Implement individual adapters for providers whose APIs are not OpenAI-compatible; verify 500 provider candidates and terms before adding.
-- [ ] Integrate security primitives into the public HTTP service; add distributed rate limiting, request quotas, TLS, WAF and abuse protection.
+- [x] Integrate constant-time bearer validation and per-client in-memory rate limiting into the HTTP service.\n- [ ] Add distributed rate limiting, request quotas, TLS, WAF and production abuse protection.
 - [ ] Implement AI-specific TTS, voice cloning, neural noise removal, image/video generation and their provider adapters.
 - [ ] Implement and test platform-specific OAuth clients, callbacks, token refresh, scopes, app reviews, media upload and publishing adapters.
 - [ ] Add scheduler daemon, retry leases, crash recovery and durable distributed queue.
