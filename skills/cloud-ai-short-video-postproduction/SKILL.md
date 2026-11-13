@@ -641,3 +641,77 @@ At each project start, refresh only the tools relevant to the requested delivera
 If a quota is not published, write **"not publicly specified—check account dashboard"**. If a tool has no genuinely usable free access, label it **"not free for this workflow"** rather than padding the catalog. Do not invent token counts, daily credits, or "unlimited" claims.
 
 The catalog is deliberately larger than the recommended stack. The editor must choose by output quality, verified free allowance, creator's Android hardware, privacy, and rights—not by tool count.
+
+
+## 22. Voice enhancement and noise engineering — dedicated audio restoration chain
+
+Treat voice enhancement as a full engineering stage, not merely turning up the volume. The objective is clean, intelligible, natural dialogue that retains the speaker's identity, vocal texture, emotion, and dynamics.
+
+### 22.1 Diagnose before processing
+- Listen to the original recording before applying effects.
+- Identify the dominant problem: steady hiss, fan/AC noise, traffic, wind, room rumble, electrical hum, echo/reverb, clipping, plosives, mouth clicks, handling noise, harsh sibilance, low recording level, or inconsistent distance from the microphone.
+- Inspect waveform and spectrum/meters when the editor provides them.
+- Separate dialogue from music/ambience where possible; never assume every sound under the voice is noise.
+- Preserve an untouched original and use a duplicate/processed track or non-destructive effects chain.
+
+### 22.2 Restoration order
+Use this order as a starting point, adapting to the recording:
+1. **Source repair:** remove isolated clicks, bumps, handling noise, and unwanted sections with fades; repair clipped audio only when a credible restoration tool exists.
+2. **Low-frequency cleanup:** apply a gentle high-pass filter only as needed to remove rumble and plosives; choose the cutoff by listening so the voice does not become thin.
+3. **Hum removal:** identify 50 Hz mains hum (India) and its harmonics when present; use a narrow notch/de-hum tool rather than broadly cutting low frequencies. Do not assume hum exists.
+4. **Noise reduction:** use a noise profile or adaptive denoiser for steady hiss/fan noise; use conservative reduction and multiple light passes rather than one aggressive pass.
+5. **De-reverb:** reduce room reflections only when clearly audible; avoid watery, metallic, phasey or gated artifacts.
+6. **Voice isolation/source separation:** isolate speech from music or background only when needed; inspect for consonant loss, watery artifacts and missing breaths.
+7. **Corrective EQ:** reduce muddy/boxy/harsh resonances only when heard; add presence or air subtly without exaggerating hiss or sibilance.
+8. **De-essing:** control sharp S/SH sounds transparently; do not lisp the speaker.
+9. **Compression:** use moderate, smooth compression to control level variation while preserving natural dynamics and emphasis.
+10. **Level automation:** even out phrases and quiet words manually/with automation before relying on heavy compression.
+11. **Limiter and output control:** prevent peaks/clipping; leave true-peak headroom suitable for the target platform and encode.
+12. **Final loudness check:** measure integrated loudness and true peak when meters are available; follow the creator/platform delivery specification rather than forcing one universal LUFS target.
+
+### 22.3 Voice enhancement goals
+- Improve speech intelligibility and presence without making the voice unnaturally deep, bright, loud, or robotic.
+- Reduce background noise while retaining natural breaths and consonants.
+- Improve perceived clarity, warmth, body, and consistency only where the source supports it.
+- Correct uneven volume between sentences and takes.
+- Keep mouth sounds and breaths only when natural; remove distracting ones selectively.
+- Preserve stereo/mono compatibility and avoid phase cancellation.
+- Match voice tone and loudness across clips recorded in different locations or sessions.
+- Keep dialogue clearly above music and SFX; duck competing layers automatically or manually.
+- Do not pitch-shift, formant-shift, clone, or impersonate the speaker as part of ordinary enhancement.
+
+### 22.4 Noise engineering decision rules
+- For steady noise, prefer a measured noise profile and gentle denoising.
+- For changing traffic/wind/crowd noise, try source separation or spectral editing; if speech damage becomes audible, reduce processing and disclose the remaining noise.
+- For echo-heavy rooms, use de-reverb carefully; if artifacts exceed the original problem, revert and use a more natural mix.
+- For wind/plosives, use targeted low-frequency repair and clip-level automation; do not remove all bass from the voice.
+- For clipping/distortion, attempt declipping only if a suitable tool is available; do not claim perfect recovery of destroyed audio.
+- For poor microphone distance or room acoustics, use EQ/automation as mitigation, not as a claim that the recording has been fully repaired.
+- If AI enhancement invents syllables, changes words, alters identity, or removes important emotion, reject that output and return to the original or a lighter pass.
+
+### 22.5 Tool selection and free-first routing
+Evaluate tools already available in the editor first. When additional restoration is needed, check legitimate free/open-source or free-tier options and verify current terms before use:
+- Audacity — local waveform editing, filters, EQ, compression, spectral tools and supported plugins.
+- FFmpeg — batch audio extraction, filtering, loudness measurement/normalization and conversion.
+- Whisper/faster-whisper — transcription for checking words, not a substitute for listening or restoration.
+- Demucs / Ultimate Vocal Remover — source separation when voice/music separation is needed; verify model and usage terms.
+- Adobe Podcast Enhance / Auphonic — hosted enhancement candidates; verify current free quota, export limits, privacy and commercial terms before uploading.
+- Any editor-native denoise, voice isolation, EQ, compressor, de-esser, de-reverb and limiter modules.
+
+Do not upload private or sensitive recordings to third-party enhancement services without the creator's authorization. Never bypass service quotas or payment requirements. If a hosted enhancer has a free quota, record the verified quota and reset period; do not assume unlimited use.
+
+### 22.6 A/B quality control
+Always compare the processed voice with the original at matched playback loudness:
+- Is speech clearer, not merely louder?
+- Are words and consonants intact?
+- Does the voice still sound like the same person?
+- Is there metallic, watery, pumping, gating, lisping or phasey distortion?
+- Are breaths and pauses natural?
+- Does the voice remain consistent across the edit?
+- Does it translate on phone speakers and headphones?
+- Is there any clipping or harsh peak after music/SFX are added?
+
+If processing makes the voice less natural, back off the effect. Deliver the best clean and believable voice, not the most heavily processed one.
+
+### 22.7 Voice-processing report
+In the final delivery report, state which operations were actually applied (for example: rumble removal, denoise, de-reverb, EQ, de-ess, compression, level automation, limiting), which tools were used, and any remaining noise or source limitation. Never claim a noise was removed unless the exported audio was checked.
