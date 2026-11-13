@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Infinite AI Power OS 500</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui,sans-serif}body{margin:0;background:#0b1020;color:#eef2ff}
+main{max-width:900px;margin:8vh auto;padding:24px}h1{font-size:clamp(2rem,5vw,3.5rem);margin-bottom:8px}
+p{color:#aab5d1}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}
+article{background:#151e34;border:1px solid #293653;border-radius:16px;padding:20px}
+strong{display:block;font-size:1.5rem;margin-top:8px}.status{color:#8fe3b0}
+small{color:#aab5d1}
+</style></head><body><main><h1>INFINITE AI POWER OS 500</h1>
+<p>Read-only starter dashboard. Placeholder capacity is not a live provider count.</p>
+<div class="grid"><article>API health<strong id="health">Checking…</strong><small>GET /health</small></article>
+<article>Provider slots<strong>500</strong><small>Unconfigured capacity placeholders</small></article>
+<article>Live providers<strong>0 by default</strong><small>Only authenticated, verified adapters count</small></article>
+<article>Social accounts<strong>Disconnected</strong><small>OAuth setup and approval required</small></article></div>
+<p id="note">This page does not expose secrets, prompts, or account data.</p></main>
+<script>
+fetch('/health').then(r=>r.json()).then(d=>{document.getElementById('health').textContent=d.status||'unknown';document.getElementById('health').className='status'}).catch(()=>{document.getElementById('health').textContent='Unavailable'});
+</script></body></html>
