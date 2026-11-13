@@ -19,5 +19,18 @@ services:
       timeout: 5s
       retries: 3
       start_period: 10s
+  queue-worker:
+    build: .
+    restart: unless-stopped
+    command: ["python", "queue_worker.py"]
+    environment:
+      AI_REGISTRY_PATH: /app/providers.json
+      AI_TASK_DB: /app/data/tasks.sqlite3
+      QUEUE_POLL_SECONDS: "30"
+    volumes:
+      - ./providers.json:/app/providers.json:ro
+      - ai-router-data:/app/data
+    depends_on:
+      - ai-router
 volumes:
   ai-router-data:
