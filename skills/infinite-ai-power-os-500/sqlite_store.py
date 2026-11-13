@@ -37,6 +37,14 @@ class SQLiteTaskStore:
                     updated_at=CURRENT_TIMESTAMP
             """, (task_id, payload))
 
+    def list_by_status(self, status, limit=100):
+        with self._connect() as db:
+            rows = db.execute(
+                "SELECT task_id, state_json FROM task_states WHERE json_extract(state_json, '$.status')=? ORDER BY updated_at LIMIT ?",
+                (status, int(limit))
+            ).fetchall()
+        return [{"task_id": row[0], **json.loads(row[1])} for row in rows]
+
     def load(self, task_id):
         with self._connect() as db:
             row = db.execute(
