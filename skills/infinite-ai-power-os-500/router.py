@@ -167,7 +167,12 @@ class ProviderRouter:
         failovers = 0
         self.task_store.save(task.task_id, {
             "status": "running", "capability": task.capability,
-            "idempotency_key": task.idempotency_key, "attempts": attempts
+            "idempotency_key": task.idempotency_key, "attempts": attempts,
+            "task_payload": task.payload, "max_failovers": task.max_failovers,
+            "max_attempts_per_provider": task.max_attempts_per_provider,
+            "required_context_tokens": task.required_context_tokens,
+            "allowed_regions": task.allowed_regions,
+            "allowed_cost_tiers": list(task.allowed_cost_tiers)
         })
 
         while failovers <= task.max_failovers:
@@ -176,7 +181,10 @@ class ProviderRouter:
                 self.task_store.save(task.task_id, {
                     "status": RouteStatus.QUEUED_NO_PROVIDER.value,
                     "capability": task.capability, "attempts": attempts,
-                    "idempotency_key": task.idempotency_key
+                    "idempotency_key": task.idempotency_key,
+                    "task_payload": task.payload, "max_failovers": task.max_failovers,
+                    "max_attempts_per_provider": task.max_attempts_per_provider,
+                    "allowed_cost_tiers": list(task.allowed_cost_tiers)
                 })
                 return RouteResult(RouteStatus.QUEUED_NO_PROVIDER, task.task_id,
                                    attempts=attempts,
@@ -245,7 +253,10 @@ class ProviderRouter:
         self.task_store.save(task.task_id, {
             "status": RouteStatus.QUEUED_NO_PROVIDER.value,
             "capability": task.capability, "attempts": attempts,
-            "idempotency_key": task.idempotency_key
+            "idempotency_key": task.idempotency_key,
+            "task_payload": task.payload, "max_failovers": task.max_failovers,
+            "max_attempts_per_provider": task.max_attempts_per_provider,
+            "allowed_cost_tiers": list(task.allowed_cost_tiers)
         })
         return RouteResult(RouteStatus.QUEUED_NO_PROVIDER, task.task_id,
                            attempts=attempts,
